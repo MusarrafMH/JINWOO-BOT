@@ -1,43 +1,43 @@
 {
-  "name": "ᴊɪɴᴡᴏᴏ-ᴠ2",
-  "version": "1.2.5",
-  "description": "Jinwoo v2, the best WhatsApp Bot",
-  "logo": "https://i.ibb.co/ZpwXnDm3/temp-image.jpg",
+  "name": "ᴊɪɴᴡᴏᴏ-ᴍᴅ",
+  "version": "2.4.0",
+  "description": "Jinwoo, the best WhatsApp Bot",
+  "logo": "https://files.catbox.moe/bqs70b.jpg",
   "keywords": ["whatsapp", "bot", "md"],
-  "repository": "https://github.com/kingmalvn/JINWOO-BOT",
+  "repository": "https://github.com/kingmalvn/Jinwoo-bot",
   "stack": "container",
   "scripts": {
     "start": "node index.js"
   },
   "env": {
     "SESSION_ID": {
-      "description": "Enter your Jin bot session id here; must start with JIN~",
+      "description": "Enter your Jinwoo session id here; must start with MALVIN-XD~",
       "value": "",
       "required": false
     },
     "BOT_NAME": {
       "description": "Enter your bot name here",
-      "value": "ᴊɪɴᴡᴏᴏ-ᴠ2",
+      "value": "ᴊɪɴᴡᴏᴏ-ʙᴏᴛ",
       "required": false
     },
     "OWNER_NUMBER": {
-      "description": "Enter your number here",
-      "value": "263714757857",
+      "description": "Enter your number here, starting with country code E.g 2637xxxxxxxx",
+      "value": "",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Enter your name here",
-      "value": "ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
+      "value": "",
       "required": true
     },
     "STICKER_PACK_NAME": {
       "description": "Sticker pack name",
-      "value": "ᴊɪɴ ᴠ2",
+      "value": "Jin",
       "required": false
     },
     "STICKER_AUTHOR_NAME": {
       "description": "Sticker author name",
-      "value": "ᴊɪɴᴡᴏᴏ",
+      "value": "Jinwoo",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -50,82 +50,17 @@
       "value": "",
       "required": false
     },
-    "BOT_PREFIX": {
-      "description": "Enter your desired prefix here",
-      "value": ".",
-      "required": true
-    },
-    "MODE": {
-      "description": "Set 'private' to enable private mode, 'public' to enable public mode, 'group' to enable only group and 'pm' to enable only private chats",
-      "value": "public",
-      "required": false
-    },
-    "ANTIDELETE": {
-      "description": "Set 'private' to send deleted messages to message yourself, 'chat' to current chat and 'off' to disable'",
-      "value": "private",
-      "required": false
-    },
-     "ANTI_EDIT": {
-      "description": "Set 'private' to send edited messages to message yourself, 'chat' to current chat and 'off' to disable'",
-      "value": "private",
-      "required": false
-    },
-    "ALWAYS_ONLINE": {
-      "description": "Set true to make the bot online 24/7 or set false to disable always online'",
-      "value": "true",
-      "required": true
-    },
-    "AUTO_STATUS_VIEW": {
-      "description": "Set true to enable and false to disable auto status view",
-      "value": "true",
-      "required": false
-    },
-    "AUTO_STATUS_REACT": {
-      "description": "Set true to enable and false to disable auto status react",
-      "value": "false",
-      "required": false
-    },
-    "STATUS_EMOJI": {
-      "description": "Set your desired status reaction emoji",
-      "value": "🧡",
-      "required": false
-    },
-    "CHATBOT": {
-      "description": "Set true to enable and false to disable auto reply chatbot",
-      "value": "false",
-      "required": false
-    },
-    "ANTI_CALL": {
-      "description": "Set true to enable and false to disable anti-call feature",
-      "value": "false",
-      "required": false
-    },
-    "WELCOME_MSG": {
-      "description": "Set true to enable and false to disable welcome messages",
-      "value": "false",
-      "required": false
-    },
     "TIMEZONE": {
       "description": "Enter your timezone here. Google or don't edit if you don't know!",
       "value": "Africa/Nairobi",
       "required": false
     },
-    "SUDO": {
-      "description": " Type additional allowed users here. They'll be able to use all the functions of the bot without restrictions. Separate with comma incase of more than one number.",
-      "value": "263714757857,263780166288,263780934873",
-      "required": false
-    },
-    "AUTO_READ": {
-      "description": "Set true to enable automatic reading of messages",
-      "value": "false",
-      "required": false
-    },
-    "MENU_STYLE": {
-      "description": "Menu style, options 1, 2, 3, 4 or 5",
-      "value": "2",
-      "required": false
-    }
-  },
+   "GITHUB_TOKEN": {
+  "description": "IMPORTANT: Follow these steps to generate your GitHub token correctly(Bot will not save settings without it!). Go to https://github.com/settings/tokens, select 'Tokens (classic)', then tap 'Generate new token' and select 'Generate new token (classic)'. Enter any note, choose 'No expiration', and under 'Select scopes', tick 'repo'. Scroll down, generate the token, and copy it. Paste it here. If using a single token for multiple bots, change the owner number to avoid settings mixups.",
+  "value": "",
+  "required": false
+}
+},
     "buildpacks": [
     {
       "url": "heroku/nodejs"
@@ -141,4 +76,3 @@
     }
   ]
 }
-

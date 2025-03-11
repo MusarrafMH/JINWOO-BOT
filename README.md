@@ -1,7 +1,7 @@
 
 
-<img align="center" height="360"
-src="https://i.ibb.co/ZpwXnDm3/temp-image.jpg?">
+<img align="center" height="auto"
+src="https://files.catbox.moe/bqs70b.jpg?">
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=J+I+N+W+O+O+▇)](https://git.io/typing-svg)
 <br>
@@ -41,45 +41,29 @@ Click the button below to fork the JIN Bot repository to your GitHub account:
 
   <br>
     <p align="left">
-  <a href="https://github.com/kingmalvn/JINWOO-BOT/fork"><img title="JINWOO-V2" src="https://img.shields.io/badge/FORK-JINWOO-V2h?color=darkblue&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/kingmalvn/Jinwoo-bot/fork"><img title="JINWOO-V2" src="https://img.shields.io/badge/FORK-JINWOO-V2h?color=darkblue&style=for-the-badge&logo=stackshare"></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
-2. GET SESSION
-    <br>
-    <p align="left">
-<a href='https://jin-pair-b741aac7200e.herokuapp.com/' target="_blank"><img alt='REQUEST PAIR CODE' src='https://img.shields.io/badge/Pair_code-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=blue'/></a>
+🔑 Get Session ID (WhatsApp Pair Code Login)
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
-3. GET CREDS.JSON FILE
-
-<div align="left">
-  <a href="https://replit.com/@malvink003/JINWOO-PAIR?v=1">
-    <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Replit-success?style=for-the-badge" alt="Deploy on Replit"/>
+> To deploy on Heroku , generate your session ID from the link below:
+<p align="left">
+  <a href="https://malvin-pair-code-xzcb.onrender.com/?">
+    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
   </a>
-</div>
-
-### After getting creds.json file, upload it to session folder
+</p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 ## `DEPLOYMENTS`
   
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fkingmalvn%2FJINWOO-BOT) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fkingmalvn%2FJinwoo-bot) 
 
 💯 safe
     <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 
 [![Deploy on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://repl.it/github/kingmalvn/JINWOO-BOT)
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
-<p align="left">
-    <a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com%2Fkingmalvn%2FJINWOO-BOT&branch=main&name=JINWOO-BOT&builder=dockerfile&env[DATABASE_URL]=&env[SESSION_ID]=Enter+your+session+id+here&env[AUTO_STATUS_SEEN]=true&env=[AUTO_REACT_STATUS]=true&env[OWNER_NUMBER]=Enter+your+number&env[OWNER_NAME]=Enter+your+name&env[TIMEZONE]=Africa/Nairobi">
-        <img src="https://www.koyeb.com/static/images/deploy/button.svg" height="40"/>
-    </a>
-</p>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
@@ -107,22 +91,32 @@ Click the button below to fork the JIN Bot repository to your GitHub account:
 <details>
 <summary>𝘔𝘖𝘙𝘌 𝘋𝘌𝘗𝘓𝘖𝘠𝘔𝘌𝘕𝘛𝘚</summary>
  
-<p align="center">
-  <a href="https://dashboard.render.com/select-repo?type=web"><img src="https://img.shields.io/badge/render-333333?style=for-the-badge&logo=render&logoColor=FFFFFF"></a>
-  <p align="center">
-  <a href="https://account.solarhosting.cc/register?ref=6JR38R0T"><img src="https://img.shields.io/badge/solar hosting-000000?style=for-the-badge&logo=solar hosting&logoColor=FFA500"></a>
-  <p align="center">
-  <a href="https://bot-hosting.net/?aff=1231885228566646795"><img src="https://img.shields.io/badge/bot hosting-000000?style=for-the-badge&logo=bot hosting &logoColor=FFA500"></a>
-   <p align="center">
-   <a href="https://dashboard.katabump.com/auth/login#5db6cb" target="_blank">
-  <img src="https://img.shields.io/badge/Katabump-D6B7D6?style=for-the-badge&logo=server&logoColor=black" alt="Katabump"/></a>
-  <p align="center"
-  <a href="https://pella.app" target="_blank">
-  <img src="https://img.shields.io/badge/Pella_App-16A085?style=for-the-badge&logo=server&logoColor=white" alt="Pella App"/></a>
-  <p align="center" 
-  <a href="https://daki.cc" target="_blank">
-  <img src="https://img.shields.io/badge/Daki_CC-34495E?style=for-the-badge&logo=server&logoColor=white" alt="Daki CC"/>
-</a>
+ **• 2 𝗛𝗢𝗦𝗧 𝗢𝗡 𝗗𝗜𝗦𝗖𝗢𝗥𝗗 /PANEL**
+<br>
+> Click below to download the bot file :
+<p align="left">
+<a href="https://github.com/kingmalvn/Jinwoo-bot/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20FILES-green" alt="Rainhost Files" width="150"></a>
+<br>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+  
+> Click below to deploy on Katabump :
+<p align="left">
+  <a href="https://dashboard.katabump.com/auth/login#203630">
+    <img src="https://img.shields.io/badge/Deploy%20to%20Katabump-Hosting-6962a6?style=for-the-badge&logo=katabump&logoColor=red"/>
+  </a>
+<br>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+  
+> Click below to deploy on Bot-Hosting :
+<p align="left">
+  <a href="https://bot-hosting.net/?aff=1231885228566646795">
+    <img src="https://img.shields.io/badge/Deploy%20to%20Bot-hosting-9772a6?style=for-the-badge&logo=bothosting&logoColor=white"/>
+  </a>
+</p>
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
+ </a>
 
 </details>
 
@@ -155,15 +149,13 @@ Click the button below to fork the JIN Bot repository to your GitHub account:
 * [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
 * [Libwebp](https://developers.google.com/speed/webp/download)
 * Any text editor
-  <a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
+  
 ## `CLONE REPO & INSTALLATION DEPENDENCIES`
 ```bash
-git clone https://github.com/<your gitHub Username>/JINWOO-BOT.git
-cd JINWOO-BOT
+git clone https://github.com/<your gitHub Username>/Jinwoo-bot.git
+cd Jinwoo-bot 
 npm start
 ```
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 ## `FOR SSH/UBUNTU/LINUX`
 ```bash
@@ -176,12 +168,11 @@ sudo apt-get install -y nodejs
 sudo apt-get install -y ffmpeg
 sudo apt-get install -y wget
 sudo apt-get install -y imagemagick
-git clone https://github.com/<your-gitHub-Username>/JINWOO-BOT
-cd JINWOO-BOT
+git clone https://github.com/<your-gitHub-Username>/Jinwoo-bot
+cd Jinwoo-bot
 npm install
 npm start
 ```
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 ## `FOR TERMUX`
 ```bash
@@ -191,13 +182,11 @@ cd bot folder name
 yarn install
 npm start
 ```
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 ## `FOR 24/7 ACTIVATION PM2 (TERMUX)`
 ```bash
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 ## `FOR 24/7 ACTIVATION RE-EXECUTION PM2 (TERMUX)`
 ```bash
@@ -205,32 +194,11 @@ npm i -g pm2 && pm2 start index.js -f && pm2 save && pm2 logs
 ```
 </details>
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
-</p>
-
-##
-* Need help? please create an <a href="https://github.com/kingmalvn/JINWOO-BOT/issues">issue</a></p>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
-##
-- Star ⭐ this repository if you like Jinwoo Bot.
-- If any problem, then [`Whatsapp Me Here`](https://wa.me/263780934873)
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
 ##
 <h2 align="center">  𝗣𝗢𝗟𝗜𝗧𝗘 𝗡𝗢𝗧𝗜𝗖𝗘!
 </h2>
 
-- *`JINWOO BOT` is not affiliated with `WhatsApp Inc`.*
-- *Misusing the bot may result in account banning.*
-- *Use at your own risk.*
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
-##
- [ JINWOO WHATSAPP CHANNEL ](https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z)
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+- This bot is made for educational purposes `only` hence `DO NOT MISUSE`.
 
 **© Jinwoo Bot**
 ##

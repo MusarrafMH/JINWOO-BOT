@@ -1,137 +1,83 @@
 /*
-  project_name : jinwoo v2
-  Owner : Techlord
+  project_name : jinwoo bot
+  Version : 2.4.0
+  Owner : Malvin King 
   Clone if you can😪
 
 
 */
 
+//----------------------[ JINWOO-V2 ]----------------------//
 
-//=================================================//
 const fs = require('fs')
 const { color } = require('./lib/color')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
-//=================================================//
+//--------------------[ SESSION ID ]----------------------//
+
 global.SESSION_ID = process.env.SESSION_ID || '' 
-//Enter your JINWOO BOT session id here; must start with JIN~
+//Enter your Jinwoo session id here; must start with MALVIN-XD~
 
-//=================================================//
-global.botname = process.env.BOT_NAME || 'ᴊɪɴᴡᴏᴏ ʙᴏᴛ ᴠ2' 
-//Your desired bot name
+//--------------------[ BOT NAME ]----------------------//
 
-//=================================================//
+global.botname = process.env.BOT_NAME || 'ᴊɪɴᴡᴏᴏ-ʙᴏᴛ' 
+
+//-----------------[ OWNER NUMBER ]------------------//
+
 global.ownernumber = process.env.OWNER_NUMBER || '263714757857' 
-//Type your main number here
 
-//=================================================//
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263714757857', '263780166288'];
-// Type additional allowed users here
-//NB: They'll be able to use every functions of the bot without restrictions.
+//-----------------[ OWNER NAME ]------------------//
 
-//=================================================//
-global.ownername = process.env.OWNER_NAME || 'ᴍᴀʟᴠɪɴ ᴋɪɴɢ' 
-//Type your name here
+global.ownername = process.env.OWNER_NAME || 'Malvin King' 
 
-//=================================================//
-global.plink = process.env.PLINK || "https://www.youtube.com/@malvintech2"
+//------------[ STICKER PACKNAME ]-----------------//
 
-//=================================================//
-global.wm = process.env.GL_WM || "©JINWOO"
+global.packname = process.env.STICKER_PACK_NAME || "JINWOO" 
 
-//=================================================//
-global.packname = process.env.STICKER_PACK_NAME || "ᴊɪɴ ᴠ2" 
-//The sticker pack name
+//--------------[ STICKER AUTHOR NAME ]------------//
 
-//=================================================//
-global.author = process.env.STICKER_AUTHOR_NAME || "ᴊɪɴ" 
-//The sticker author name
+global.author = process.env.STICKER_AUTHOR_NAME || "SUNG" 
 
-//=================================================//
-global.prefixz = process.env.BOT_PREFIX || '.'
-//Set your desired prefix
+//----------------------[ TIMEZONE ]--------------------//
 
-//=================================================//
-global.mode = process.env.MODE || 'public';
-// Set 'private' to enable private mode
-// Set 'public' to enable public mode
-// Set 'group' to enable only group
-// Set 'pm' to enable only private chats
-
-//=================================================//
-global.statusemoji = process.env.STATUS_EMOJI || '🧡'
-//Enter the emoji that you wish to be reacted to statuses 
-
-//=================================================//
-global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
-// set true to enable and false to disable auto status view
-
-//=================================================//
-global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
-// set true to enable and false to disable auto status react
-
-//=================================================//
-global.alwaysonline = process.env.ALWAYS_ONLINE || 'true'
-//Set true to make the bot online 24/7 or set false to disable always online
-
-
-//=================================================//
-global.chatbot = process.env.CHATBOT || 'false'
-// set true to enable and false to disable auto ai chatbot
-
-//=================================================//
-global.antidelete = process.env.ANTIDELETE || 'private'
-// options:- 'private', 'chat' or 'off'
-// private = Sends to message yourself 
-// chat = sends to the current chat 
-// off = Disables detection of deleted messages
-
-//=================================================//
-global.antiedit = process.env.ANTI_EDIT || 'private'
-// options:- 'private', 'chat' or 'off'
-// private = Sends to message yourself 
-// chat = sends to the current chat 
-// off = Disables detection of edited messages
-
-//=================================================//
-global.anticall = process.env.ANTI_CALL || 'false'
-// set true to enable and false to disable auto blocking of callers
-
-//=================================================//
-global.welcome = process.env.WELCOME_MSG || 'false'
-// set true to enable and false to disable welcoming and left messages to groups upon joining or leaving groups
-
-//=================================================//
 global.timezones = process.env.TIMEZONE || "Africa/Nairobi" 
 //Don't edit this if you don't know!
 
-//=================================================//
-global.autoread = process.env.AUTO_READ || 'false';
-// Set to 'true' to enable automatic reading of messages
+//----------------[ GITHUB DATABASE ]-----------------//
 
-//=================================================//
-global.menustyle = process.env.MENU_STYLE || '2' 
-// options 1, 2, 3, 4 or 5
-// 1 = Document menu(Android only)
-// 2 = Text only menu(Android & iOS)
-//3 = Image menu with context(Android & iOS)
-//4 = Image menu(Android & iOS)
-//5 = Payment menu
+global.dbToken = process.env.GITHUB_TOKEN || "";
+// Not really necessary on panels/vps/termux, just put it when bot settings reset when bot restarts.
 
-//=================================================//
-//Replies
+//Go to https://github.com/settings/tokens, select 'Tokens (classic)', then tap 'Generate new token' and select 'Generate new token (classic)'. Enter any note, choose 'No expiration', and under 'Select scopes', tick 'repo'. Scroll down, generate the token, and copy it. Paste it here. If using a single token for multiple bots, change the owner number to avoid settings mixups.
+
+
+//-----------------[ CONTEXT LINK ]--------------------//
+
+global.plink = process.env.PLINK || "https://www.youtube.com/@malvintech2"
+
+//------------------[ WATERMARK ]--------------------//
+
+global.wm = process.env.GL_WM || "> ©Jinwoo-ʙᴏᴛ"
+
+//---------------------[ REPLIES ]-----------------------//
+
 global.mess = { 
   done: '*Done*', 
-  success: '> ©JINWOO', 
+  success: '> © ᴊɪɴᴡᴏᴏ-ᴍᴅ ᴜʟᴛʀᴀ', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
   notadmin: '*This feature will work once you become an admin. A way of ensuring order!*' 
 }
-//=================================================//
 
-//=================================================//
+//--------------[ DEVELOPER SETTINGS ]---------------//
+/* Do not change anything here!!! */
+
+//😹😹🙆‍♂️
+
+//--------------------[ WATCHER ]-----------------------//
+
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
   fs.unwatchFile(file)
@@ -139,4 +85,5 @@ fs.watchFile(file, () => {
   delete require.cache[file]
   require(file)
 })
-//=================================================//
+
+//----------------------[ MALVIN ]----------------------//

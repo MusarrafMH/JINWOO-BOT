@@ -1,14 +1,26 @@
 {
-  "users": [],
-  "database": {},
   "chats": {},
-  "game": {
-    "math": []
+  "settings": {
+    "prefix": ".",
+    "mode": "public",
+    "autobio": false,
+    "anticall": false,
+    "chatbot": false,
+    "autotype": false,
+    "autoread": false,
+    "welcome": false,
+    "antiedit": "private",
+    "menustyle": "3",
+    "statusemoji": "🧡",
+    "autoreact": false,
+    "autorecord": false,
+    "antidelete": "private",
+    "alwaysonline": true,
+    "autoviewstatus": true,
+    "autoreactstatus": false,
+    "autorecordtype": false
   },
-  "settings": {},
-  "message": {},
-  "sticker": {},
-  "others": {
-    "vote": []
+  "blacklist": {
+    "blacklisted_numbers": []
   }
 }
