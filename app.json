@@ -12,7 +12,7 @@
   "env": {
     "SESSION_ID": {
       "description": "Enter your Jinwoo session id here; must start with MALVIN-XD~",
-      "value": "",
+      "value": "MALVIN-XD~w8I00TRb#2tYe8D02L1HUUbkz9RhbJIMhNlfhygJQ1cPPocgkxPI",
       "required": false
     },
     "BOT_NAME": {
